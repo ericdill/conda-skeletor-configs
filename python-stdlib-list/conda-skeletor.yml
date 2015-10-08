@@ -1,0 +1,11 @@
+ignore_path_regex:
+  - .*(doc).*
+
+# consider renaming to 'source_dir_names'
+include_path_regex:
+  - .*(stdlib_list).*
+
+extra_setup_files_regex:
+  - .*(setup).*
+
+generate_test_suite: True
